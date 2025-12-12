@@ -124,6 +124,15 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-QFGDL91VLC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QFGDL91VLC');
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -457,8 +466,8 @@ Geodetic CRS:  WGS 84</code></pre>
 <span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="fu">gc</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>          used (Mb) gc trigger  (Mb) limit (Mb) max used  (Mb)
-Ncells 1671851 89.3    3077995 164.4         NA  2448270 130.8
-Vcells 2531109 19.4   10146329  77.5      36864 10146047  77.5</code></pre>
+Ncells 1671856 89.3    3078032 164.4         NA  2448224 130.8
+Vcells 2531182 19.4   10146329  77.5      36864 10146120  77.5</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># define number of cores for parallel processing</span></span>
 <span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>processing_cores <span class="ot">&lt;-</span> <span class="fu">max</span>(parallel<span class="sc">::</span><span class="fu">detectCores</span>() <span class="sc">-</span> <span class="dv">1</span>, <span class="dv">1</span>)</span>

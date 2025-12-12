@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Tutorials for Generating Gridded Sampling Frames"
@@ -17,3 +18,5 @@ format:
     toc: true           # automatically generate TOC for the current page
     toc-depth: 4        # number of heading levels to include in TOC
     css: styles.css     # custom CSS for heading capitalization, etc.
+    include-in-header:
+      - ga.html
