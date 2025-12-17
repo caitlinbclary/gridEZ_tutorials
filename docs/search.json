@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Introduction: gridEZ, an algorithm for generating gridded sampling frames",
     "section": "",
-    "text": "Figure 1: Example gridEZ sampling frame for Samoa. Map imagery: Google, Maxar Technologies ©2025"
+    "text": "Surveys provide vital information on the state of a population, e.g. health, economics, perceptions. To accurately assess such population characteristics, surveys require a robust survey design including reliable sampling frames from which Primary Sampling Units (PSUs) are selected. In many settings bespoke sampling frames are needed. For example, where standard sampling frames are unsuitable due to survey needs or unavailable due to missing geographic data. To address this problem, we have designed the gridEZ algorithm that utilizes gridded population data to generate gridded enumeration zones (EZs), which can serve as a robust sampling frame for household surveys.\nThese tutorials provide all the code needed not only to run gridEZ but to prepare input data effectively, review output sampling frames and format outputs suitable for sample selection.\n\n\n\n\n\n\n\n\nFigure 1: Example gridEZ sampling frame for Samoa. Map imagery: Google, Maxar Technologies ©2025"
   },
   {
     "objectID": "index.html#overview",
     "href": "index.html#overview",
     "title": "Introduction: gridEZ, an algorithm for generating gridded sampling frames",
-    "section": "Overview",
-    "text": "Overview\nSurveys provide vital information on the state of a population, e.g. health, economics, perceptions. To accurately assess such population characteristics, surveys require a robust survey design including reliable sampling frames from which Primary Sampling Units (PSUs) are selected. In many settings bespoke sampling frames are needed. For example, where standard sampling frames are unsuitable due to survey needs or unavailable due to missing geographic data. To address this problem, we have designed the gridEZ algorithm that utilizes gridded population data to generate gridded enumeration zones (EZs), which can serve as a robust sampling frame for household surveys.\nThese tutorials provide all the code needed not only to run gridEZ but to prepare input data effectively, review output sampling frames and format outputs suitable for sample selection."
+    "section": "",
+    "text": "Surveys provide vital information on the state of a population, e.g. health, economics, perceptions. To accurately assess such population characteristics, surveys require a robust survey design including reliable sampling frames from which Primary Sampling Units (PSUs) are selected. In many settings bespoke sampling frames are needed. For example, where standard sampling frames are unsuitable due to survey needs or unavailable due to missing geographic data. To address this problem, we have designed the gridEZ algorithm that utilizes gridded population data to generate gridded enumeration zones (EZs), which can serve as a robust sampling frame for household surveys.\nThese tutorials provide all the code needed not only to run gridEZ but to prepare input data effectively, review output sampling frames and format outputs suitable for sample selection.\n\n\n\n\n\n\n\n\nFigure 1: Example gridEZ sampling frame for Samoa. Map imagery: Google, Maxar Technologies ©2025"
   },
   {
     "objectID": "index.html#recommended-prior-knowledge",
