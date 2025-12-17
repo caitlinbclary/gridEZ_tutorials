@@ -406,7 +406,7 @@ We are very interested to know:
 
 Please use the link below to provide any comments or feedback.
 
-<a id="feedback-link" target="_blank">Give feedback</a>
+<a id="feedback-link" class="btn btn-dark" target="_blank">Give feedback</a>
 
 ```{=html}
 <script>

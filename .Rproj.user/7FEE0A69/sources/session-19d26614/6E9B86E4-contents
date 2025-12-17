@@ -143,31 +143,3 @@ colnames(df) <- c("Tutorial","Pop. data","Strata 1","Strata 2","EZ size","Pre/us
 
 knitr::kable(df)
 ```
-
-## Feedback
-
-We are very interested to know:
-
--   how survey practitioners, researchers and data collectors are using gridEZ
-
--   how these tutorials can be updated or improved
-
-Please use the link below to provide any comments or feedback.
-
-<a id="feedback-link" target="_blank">Give feedback</a>
-
-```{=html}
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  // Your Google Form URL
-  const base = "https://docs.google.com/forms/d/e/1FAIpQLSdOokaez2GCTBqDzOOJbqTxU2ydZU5TvzW7oO75BhVMnPo8Iw/viewform?usp=pp_url&entry.1982908603=";
-
-  // Make sure the element exists
-  const link = document.getElementById("feedback-link");
-  if (link) {
-    // Set the href dynamically
-    link.setAttribute("href", base + encodeURIComponent(window.location.href));
-  }
-});
-</script>
-```
